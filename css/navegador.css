@@ -1,10 +1,4 @@
-.headerIn{
-    color: black;
-    height: 10vh;
-    width: 100vw;
-    margin-right: 20px;
-    background-color:red;
-}
+
 #tituloIn{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
@@ -52,13 +46,14 @@
 .contenedor
 {
     width: 100%;
-
+    max-width: 1000px;
     margin: 0 auto;
     overflow: hidden;
+    box-sizing: border-box;
 }
 .contenedorimagenes
 {
-    clear: right;
+   
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top: 10vh;
 }
@@ -88,4 +83,112 @@ p{
     width: 100%;
     margin-top: 0px;
     margin-left: 35px;
+}
+.imagen1
+{
+    
+    height: 500px;
+    width:  500px;
+}
+.tarjeta{
+    background-image: url(../ima/camera-1149041_1920.jpg);
+    background-size: cover  ;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 400px;
+    width: 1000px;
+
+}
+.tarjeta2{
+    background-image: url(https://assets.newatlas.com/dims4/default/50b4ccf/2147483647/strip/true/crop/7436x4957+0+0/resize/1200x800!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2F82%2F35%2Fcfa6713d46498b24b4cd49177cea%2Fmojowebheroshotoflens.jpeg);
+    background-size: cover  ;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 400px;
+    width: 470px;
+
+}
+.tarjeta3
+{
+    background-image: url(https://pixabay.com/get/54e5d34b425ab108feda8460da29317e163edee6505072_1920.jpg);
+    background-size: cover  ;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: 0px;
+    height: 400px;
+    width: 470px;
+
+}
+.texto
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 5cm;
+    color: white    ;
+}
+.texto2
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 5cm;
+    color: white    ;
+}
+.texto3
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 5cm;
+    color: white;
+    background-color: red;
+    background-size: contain;
+}
+.subtexto
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+.izq
+{
+    float: left;
+}
+.dere{
+    float: right;
+}
+.der{
+    margin-top: 3cm;
+    margin-right: 80px;
+    float: right;
+}
+.menu{
+    height:10%;
+    background-color:#C8CACC;
+}
+.izquierda{
+        height:50%;
+        background-color:#BDD2EF;
+        float:left;
+        width:50%;
+}
+.derecha{
+        height:50%;
+        background-color:#DAF7E2;
+        float:right;
+        width:50%;
+}
+#map
+{
+    width: 480px; height: 300px;
 }
